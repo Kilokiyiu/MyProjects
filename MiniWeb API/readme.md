@@ -553,4 +553,3 @@ ActionFilter.Filters.Add(new AuthFilter());
 5. **参数绑定**如何将 HTTP 数据转换为方法参数
 6. **结果输出**如何将对象序列化为 HTTP 响应
 
-理解了这个 MiniWeb API 的实现，再深入学习 ASP.NET Core 源码时，就能清晰地知道每一层封装背后解决的是什么问题。
