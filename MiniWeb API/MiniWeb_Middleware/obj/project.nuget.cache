@@ -1,0 +1,104 @@
+{
+  "version": 2,
+  "dgSpecHash": "jQ3jkvTWemg=",
+  "success": true,
+  "projectFilePath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\27522\\.nuget\\packages\\dynamic.json\\1.4.2\\dynamic.json.1.4.2.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\microsoft.aspnetcore.hosting\\2.3.9\\microsoft.aspnetcore.hosting.2.3.9.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.3.9\\microsoft.aspnetcore.hosting.server.abstractions.2.3.9.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.9\\microsoft.aspnetcore.http.2.3.9.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.6\\microsoft.extensions.dependencyinjection.10.0.6.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.6\\microsoft.extensions.fileproviders.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\system.text.json\\10.0.6\\system.text.json.10.0.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Hosting will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "libraryId": "Microsoft.AspNetCore.Hosting",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Hosting.Server.Abstractions will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "libraryId": "Microsoft.AspNetCore.Hosting.Server.Abstractions",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Http will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "libraryId": "Microsoft.AspNetCore.Http",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.DependencyInjection will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "libraryId": "Microsoft.Extensions.DependencyInjection",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.FileProviders.Abstractions will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "libraryId": "Microsoft.Extensions.FileProviders.Abstractions",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Reflection will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "libraryId": "System.Reflection",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\1.Study\\.NET CORE\\第五章\\MiniWeb API\\MiniWeb_Middleware\\MiniWeb_Middleware.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

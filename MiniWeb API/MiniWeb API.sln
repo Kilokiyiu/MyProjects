@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniWeb API", "MiniWeb API\MiniWeb API.csproj", "{44ACB560-A6A1-402F-A426-62B5488A1690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniWeb_Middleware", "MiniWeb_Middleware\MiniWeb_Middleware.csproj", "{45CDFAD3-BDDE-4B74-9ED1-5B54F0216928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44ACB560-A6A1-402F-A426-62B5488A1690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ACB560-A6A1-402F-A426-62B5488A1690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ACB560-A6A1-402F-A426-62B5488A1690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ACB560-A6A1-402F-A426-62B5488A1690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CDFAD3-BDDE-4B74-9ED1-5B54F0216928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CDFAD3-BDDE-4B74-9ED1-5B54F0216928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CDFAD3-BDDE-4B74-9ED1-5B54F0216928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CDFAD3-BDDE-4B74-9ED1-5B54F0216928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
