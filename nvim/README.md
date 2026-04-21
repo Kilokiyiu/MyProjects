@@ -1,6 +1,6 @@
 # Neovim 个人配置
 
-一套基于 [lazy.nvim](https://github.com/folke/lazy.nvim) 的 Neovim 个人配置，注重现代化编辑体验与简洁结构。
+这是一套基于 [lazy.nvim](https://github.com/folke/lazy.nvim) 的 Neovim 个人配置。
 
 ---
 
@@ -17,7 +17,7 @@ nvim/
 │   │   └── lazy.lua          # lazy.nvim 插件管理器初始化
 │   └── plugins/              # 插件配置目录（lazy.nvim 自动加载）
 │       ├── colorscheme.lua   # 主题
-│       ├── completion.lua    # 自动补全
+│       ├── completion.lua    # 语法自动补全
 │       ├── lsp.lua           # LSP 语言服务器
 │       ├── treesitter.lua    # 语法树高亮
 │       └── ui.lua            # UI 美化
@@ -114,7 +114,7 @@ nvim/
 
 ## 环境要求
 
-- Neovim >= 0.10
+- Neovim >= 0.12
 - Git
 - 可选：[Nerd Font](https://www.nerdfonts.com/)（用于显示图标）
 
