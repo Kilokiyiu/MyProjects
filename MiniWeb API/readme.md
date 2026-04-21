@@ -1,4 +1,4 @@
-# MiniWeb API 实现原理详解
+# MiniWeb API 原理
 
 ## 一、项目概述
 
