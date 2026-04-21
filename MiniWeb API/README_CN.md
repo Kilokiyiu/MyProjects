@@ -10,7 +10,6 @@
 MiniWeb API/
 ├── MiniWeb API/              # 入口项目（Web 应用）
 │   ├── Program.cs            # 服务注册与中间件管道配置
-│   └── MiniWeb API.csproj    # 项目文件
 ├── MiniWeb_Middleware/       # 核心类库（自定义中间件）
 │   ├── MyWebApiMiddleware.cs      # API 请求核心处理中间件
 │   ├── ActionLocator.cs           # 控制器扫描与 Action 定位
@@ -20,7 +19,6 @@ MiniWeb API/
 │   ├── ContentTypeHelper.cs       # 文件 Content-Type 映射
 │   ├── NotFoundMiddleware.cs      # 404 兜底中间件
 │   └── ActionFilter.cs            # 简易 Action 过滤器
-└── MiniWeb API.sln           # 解决方案文件
 ```
 
 ---
@@ -317,6 +315,7 @@ public static object?[] GetParameterValues(HttpContext httpContext, MethodInfo a
 public async Task InvokeAsync(HttpContext context, IServiceProvider sp)
 {
     // === 步骤1：解析路径 ===
+    //将请求路径（如/api/User/GetAll）解析为 Controller名（User）和Action 名（GetAll）。解析失败则交给下一个中间件。
     (bool ok, string? ctrlName, string? actionName) = PathParser.Parse(context.Request.Path);
     if (ok == false)
     {
@@ -325,6 +324,7 @@ public async Task InvokeAsync(HttpContext context, IServiceProvider sp)
     }
     
     // === 步骤2：定位 Action 方法 ===
+    //通过反射查找匹配的 MethodInfo。找不到则交给下一个中间件。
     var actionMethod = actionLocator.LocateActionMethod(ctrlName!, actionName!);
     if (actionMethod == null)
     {
@@ -333,6 +333,8 @@ public async Task InvokeAsync(HttpContext context, IServiceProvider sp)
     }
     
     // === 步骤3：获取控制器实例（支持依赖注入）===
+    //DeclaringType 获取方法所属的 Controller 类型。
+//通过依赖注入容器（IServiceProvider）创建 Controller 实例，这样 Controller 构造函数中的依赖也会被自动注入。
     Type controllerType = actionMethod.DeclaringType!;
     object controllerInstance = sp.GetRequiredService(controllerType);
     
@@ -393,7 +395,7 @@ public async Task InvokeAsync(HttpContext httpContext)
         return;
     }
     
-    // 设置响应头
+    // 设置响应头和状态码
     httpContext.Response.ContentType = ContentTypeHelper.GetContentType(file);
     httpContext.Response.StatusCode = 200;
     
