@@ -1,0 +1,35 @@
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\appsettings.Development.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\appsettings.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb API.staticwebassets.runtime.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb API.staticwebassets.endpoints.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb API.exe
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb API.deps.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb API.runtimeconfig.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb API.dll
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb API.pdb
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb_Middleware.dll
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\bin\Debug\net10.0\MiniWeb_Middleware.pdb
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.csproj.AssemblyReference.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.GeneratedMSBuildEditorConfig.editorconfig
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.AssemblyInfoInputs.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.AssemblyInfo.cs
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.csproj.CoreCompileInputs.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.MvcApplicationPartsAssemblyInfo.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.sourcelink.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\scopedcss\bundle\MiniWeb API.styles.css
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\compressed\1a0v56wnqg-{0}-4be998ovzh-4be998ovzh.gz
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\staticwebassets.build.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\staticwebassets.build.json.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\staticwebassets.development.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\swae.build.ex.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb .3F0FC82D.Up2Date
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.dll
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\refint\MiniWeb API.dll
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.pdb
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\MiniWeb API.genruntimeconfig.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb API\obj\Debug\net10.0\ref\MiniWeb API.dll

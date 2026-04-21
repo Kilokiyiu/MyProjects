@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniWeb API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1b73af7ddb8eb03415f522a7d1c97dd1d686ea2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+089e950f16f5f221f5a7ea0bb88304c8f39979ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniWeb API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniWeb API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

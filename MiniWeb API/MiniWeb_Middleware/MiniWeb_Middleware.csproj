@@ -7,14 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Dynamic.Json" Version="1.4.2" />
-      <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.3.9" />
-      <PackageReference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions" Version="2.3.9" />
-      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.9" />
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.6" />
-      <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" Version="10.0.6" />
-      <PackageReference Include="System.Reflection" Version="4.3.0" />
-      <PackageReference Include="System.Text.Json" Version="10.0.6" />
       <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
 

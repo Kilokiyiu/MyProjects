@@ -3,6 +3,9 @@ using System.Text.RegularExpressions;
 
 namespace MiniWebAPI
 {
+    /// <summary>
+    /// This is a path parser that is responsible for extracting the Controller name and action name from the HTTP request path.
+    /// </summary>
     public class PathParser
     {
 
@@ -13,6 +16,7 @@ namespace MiniWebAPI
             {
                 return (false, null, null);
             }
+            //解析出来控制器和Action的名字
             var match = Regex.Match(path,
                 "/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)");
             if (!match.Success)

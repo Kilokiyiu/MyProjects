@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MiniWeb API/1.0.0": {
+        "dependencies": {
+          "MiniWeb_Middleware": "1.0.0"
+        },
+        "runtime": {
+          "MiniWeb API.dll": {}
+        }
+      },
+      "MiniWeb_Middleware/1.0.0": {
+        "runtime": {
+          "MiniWeb_Middleware.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniWeb API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniWeb_Middleware/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

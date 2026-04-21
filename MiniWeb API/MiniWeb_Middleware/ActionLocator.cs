@@ -3,10 +3,11 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace MiniWeb_Middleware;
 
-/*
- * 简单的action定位器，模拟ASP.NET WEB API如何通过URL找到对应的action方法
- */
-
+/// <summary>
+/// This is an Action locator, which is responsible for scanning all Controller classes in the assembly when the application starts,
+/// and establishing a lookup table (dictionary).
+/// At runtime, it can quickly locate the corresponding MethodInfo based on the Controller name and Action name.
+/// </summary>
 public class ActionLocator
 {
     private Dictionary<string, MethodInfo> data = new(StringComparer.OrdinalIgnoreCase);

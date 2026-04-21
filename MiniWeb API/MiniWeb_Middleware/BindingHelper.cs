@@ -6,6 +6,15 @@ namespace MiniWeb_Middleware;
 
 public class BindingHelper
 {
+    /// <summary>
+    /// This is a parameter binding helper class
+    /// that is responsible for extracting data from HTTP requests and converting it to the parameter values required by the Action method.
+    /// equivalent to ASP.NET A simplified version of Model Binding in Core.
+    /// </summary>
+    /// <param name="httpContext"></param>
+    /// <param name="actionMethod"></param>
+    /// <returns></returns>
+    /// <exception cref="Exception"></exception>
     public static object?[] GetParameterValues(HttpContext httpContext, MethodInfo actionMethod)
     {
         var parameters = actionMethod.GetParameters();

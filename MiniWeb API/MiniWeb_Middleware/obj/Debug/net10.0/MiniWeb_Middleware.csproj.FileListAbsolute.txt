@@ -1,0 +1,12 @@
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\bin\Debug\net10.0\MiniWeb_Middleware.deps.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\bin\Debug\net10.0\MiniWeb_Middleware.dll
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\bin\Debug\net10.0\MiniWeb_Middleware.pdb
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\MiniWeb_Middleware.GeneratedMSBuildEditorConfig.editorconfig
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\MiniWeb_Middleware.AssemblyInfoInputs.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\MiniWeb_Middleware.AssemblyInfo.cs
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\MiniWeb_Middleware.csproj.CoreCompileInputs.cache
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\MiniWeb_Middleware.sourcelink.json
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\MiniWeb_Middleware.dll
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\refint\MiniWeb_Middleware.dll
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\MiniWeb_Middleware.pdb
+E:\1.Study\.NET CORE\第五章\MiniWeb API\MiniWeb_Middleware\obj\Debug\net10.0\ref\MiniWeb_Middleware.dll
