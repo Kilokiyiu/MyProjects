@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "9CDF/DcCdio=",
+  "dgSpecHash": "iJl59Mp4Jw0=",
   "success": true,
   "projectFilePath": "E:\\6.MyProjects\\Markdown_Middleware\\Markdown_Middleware\\Markdown_Middleware.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\27522\\.nuget\\packages\\markdownsharp\\2.0.5\\markdownsharp.2.0.5.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\27522\\.nuget\\packages\\ude.netstandard\\1.2.0\\ude.netstandard.1.2.0.nupkg.sha512"
+  ],
   "logs": []
 }
