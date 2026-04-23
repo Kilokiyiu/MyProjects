@@ -1,99 +1,69 @@
 # Markdown_Middleware
 
-一个基于 ASP.NET Core 的自定义中间件项目，能够自动将 `wwwroot` 目录下的 `.md` Markdown 文件实时转换为 HTML 页面返回给浏览器。
+This is a based on ASP.NET CORE's cunstom middleware project. It could automatically convert the Markdown file in 'wwwroot' directory into an HTML page in real time, and return to your browser.
 
-## 功能特性
+## Features
 
-- **自动 Markdown 转 HTML**：请求以 `.md` 结尾的文件时，中间件自动读取并转换为 HTML
-- **自动编码检测**：使用 `Ude.NetStandard` 自动检测文件编码（支持 UTF-8、GBK 等），避免中文乱码
-- **无缝集成 StaticFiles**：基于 ASP.NET Core 内置 StaticFiles 中间件构建，非 Markdown 请求正常走静态文件管道
-- **MVC 支持**：保留完整的 ASP.NET Core MVC 功能（控制器、视图、路由等）
+- **Automatically convert Markdown file into Html file**：In the target directory，the middleware automatically read files and convert it into HTML file
+- **Automatic coding detection**：Using `Ude.NetStandard` auto detect file encoding(support UTF-8)，avoid garbled code
+- **Seamless integration with StaticFiles**：Based on ASP.NET Core is built with StaticFiles middleware, and non Markdown requests normally go through the static file pipline
+- **Support MVC**：Retains full ASP.NET Core MVC functionality (controllers, views, routes, etc.)
 
-## 技术栈
 
-- **.NET 10**
-- **ASP.NET Core MVC**
-- **MarkdownSharp** — Markdown 解析
-- **Ude.NetStandard** — 字符编码自动检测
-
-## 项目结构
+## Project structure
 
 ```
 Markdown_Middleware/
 ├── Markdown_Middleware/
 │   ├── Controllers/
-│   │   └── HomeController.cs          # 首页、隐私页、错误页控制器
+│   │   └── HomeController.cs          
 │   ├── Models/
-│   │   └── ErrorViewModel.cs          # 错误视图模型
-│   ├── Views/                          # Razor 视图
-│   ├── wwwroot/                        # 静态文件根目录
+│   │   └── ErrorViewModel.cs          
+│   ├── Views/                          
+│   ├── wwwroot/                        
 │   │   ├── css/
 │   │   ├── js/
 │   │   ├── lib/
-│   │   └── testMd.md                   # 示例 Markdown 文件
-│   ├── Program.cs                      # 应用入口 & 中间件管道配置
-│   ├── MarkdownMiddleware.cs           # 核心：Markdown 转换中间件
+│   │   └── testMd.md                   
+│   ├── Program.cs                      
+│   ├── MarkdownMiddleware.cs           
 │   ├── appsettings.json
 │   └── Markdown_Middleware.csproj
 └── Markdown_Middleware.sln
 ```
 
-## 快速开始
+## Quick start
 
-### 1. 克隆并进入项目
+### 1. Clone and enter the project
 
 ```bash
 cd Markdown_Middleware
 ```
 
-### 2. 还原依赖并运行
+### 2. Access Markdown files
 
-```bash
-dotnet restore
-dotnet run --project Markdown_Middleware
-```
-
-### 3. 访问 Markdown 文件
-
-将 `.md` 文件放入 `wwwroot/` 目录，然后在浏览器中直接访问：
+Put the Markdown files into `wwwroot/` directory，and access it in your browser：
 
 ```
-https://localhost:5001/testMd.md
+https://your localhost/testMd.md
 ```
 
-即可看到渲染后的 HTML 页面。
 
-## 核心实现
 
-### MarkdownMiddleware 工作原理
 
-1. 拦截所有 HTTP 请求，判断路径是否以 `.md` 结尾
-2. 若不是 Markdown 请求，则传递给下一个中间件
-3. 若是 Markdown 请求，从 `WebRootFileProvider` 中读取文件
-4. 使用 `Ude.CharsetDetector` 自动检测文件编码
-5. 使用 `MarkdownSharp` 将 Markdown 文本转换为 HTML
-6. 设置响应头 `Content-Type: text/html; charset=utf-8`，返回 HTML 内容
+## core implementation
 
-### 中间件注册顺序
+### MarkdownMiddleware Working principle
 
-```csharp
-app.UseHttpsRedirection();
-app.UseRouting();
-app.UseAuthorization();
+1. Intercept all HTTP requests and determine whether the path ends with `.md`
+2. If it is not a Markdown request, it will be passed to the next middleware
+3. If it is a Markdown request, read the file from `WebRootFileProvider`
+4. Use `Ude.CharsetDetector` to automatically detect file encoding
+5. Convert Markdown text to HTML using `MarkdownSharp`
+6. Set the response header `Content-Type: text/html; charset=utf-8` and return HTML content
 
-// 自定义 Markdown 中间件（在 StaticFiles 之前）
-app.UseMiddleware<MarkdownMiddleware>();
 
-app.MapStaticAssets();
-```
+## The NugetPackagse you have to intall
 
-## 依赖包
-
-| 包名 | 版本 | 说明 |
-|------|------|------|
-| MarkdownSharp | 2.0.5 | Markdown 转 HTML |
-| Ude.NetStandard | 1.2.0 | 字符编码检测 |
-
-## 许可证
-
-MIT
+| MarkdownSharp | 2.0.5 | Markdown convert into HTML |
+| Ude.NetStandard | 1.2.0 | Character encoding detection |
